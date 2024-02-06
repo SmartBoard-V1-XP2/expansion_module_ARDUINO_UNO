@@ -43,11 +43,31 @@ This approach allows the module to blend the robust hardware capabilities of the
 Developers are encouraged to install the Arduino bootloader and utilize the Arduino IDE for an optimal programming experience, leveraging the compatibility to streamline development and enhance the module's functionality within the smartboard ecosystem.
 
 ## Media
-- ![Schematic](media/sch.png)
-- ![Board Design](media/brd.png)
-- ![Module Size](media/brd_size.png)
-- ![Smartboard with Arduino UNO](media/smartboard_with_arduino_uno.png)
-- ![Smartboard System Example](media/smart_board_1.png)
+
+Below are images showcasing various aspects of the expansion module, providing a visual overview of its design, layout, and integration capabilities:
+
+- **Schematic Overview**
+  ![Schematic Overview](media/sch.png)
+  This image presents the schematic diagram of the expansion module, detailing the electrical connections and components.
+
+- **Board Design**
+  ![Board Design](media/brd.png)
+  Here is the physical layout of the PCB, showing the placement of components and the overall design of the board.
+
+- **Module Size and Dimensions**
+  ![Module Size and Dimensions](media/brd_size.png)
+  This picture illustrates the module's dimensions and size, providing a clear view of its compactness and how it fits within a smartboard system.
+
+- **Integration with Smartboard and Arduino UNO**
+  ![Integration with Smartboard and Arduino UNO](media/smarboard_with_arduino_uno.png)
+  A visual representation of how the module integrates with a smartboard, including an example setup featuring an Arduino UNO.
+
+- **Smartboard System Example**
+  ![Smartboard System Example](media/smart_board_1.png)
+  An example of a smartboard system fully equipped with several expansion modules, demonstrating the modular nature and versatility of the smartboard ecosystem.
+
+These images collectively offer a comprehensive view of the expansion module's design, functionality, and integration potential within smartboard projects.
+
 
 ## Contributions and Feedback
 Contributions to this project are welcome. If you have suggestions for improvement or have developed additional features, please fork the repository, make your changes, and submit a pull request. For any questions or issues, please open an issue in the GitHub repository.
