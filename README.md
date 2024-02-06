@@ -27,20 +27,20 @@ This microcontroller's versatility and comprehensive feature set make it an exce
 
 For more detailed information on the ATmega32u4 microcontroller, including technical specifications and usage guidelines, please refer to the [ATmega32u4 Datasheet](ATmega16U4-32U4-DTE.pdf) available in this repository.
 
-## Compatibility with Arduino UNO
+## Arduino UNO Software Compatibility
 
-This expansion module is designed to be fully compatible with the Arduino UNO, one of the most popular and versatile development boards in the Arduino ecosystem. By matching the Arduino UNO pinout, this module allows users to take advantage of the vast array of existing Arduino shields and accessories, thereby expanding the scope of projects and applications without requiring additional hardware modifications.
+This expansion module harnesses the ATmega32u4 microcontroller, ensuring software compatibility with the Arduino UNO environment. While the physical layout of the module differs from standard Arduino UNO boards, making it incompatible with Arduino shields, it retains software compatibility. This means all the digital and analog pins, UART interfaces, and other peripherals like buttons and LEDs are mapped in accordance with the Arduino UNO's configuration, facilitating seamless integration with Arduino sketches and libraries.
 
-The compatibility with Arduino UNO enables developers to leverage the extensive Arduino library and IDE for programming the module, making it accessible for beginners and powerful enough for advanced users. This opens up opportunities for a wide range of applications, from simple hobbyist projects to complex, integrated IoT systems.
+The module's design prioritizes integration with smartboard systems while maintaining the ease of programming and versatility associated with the Arduino software environment. Developers can utilize the familiar Arduino IDE for programming the module, taking advantage of the vast collection of libraries and tools available within the Arduino ecosystem to expedite development and prototyping processes.
 
-Key benefits of Arduino UNO compatibility include:
-- Access to a wide range of Arduino-compatible shields and modules, enhancing the module's utility and flexibility.
-- The ability to use the Arduino IDE for programming, which simplifies development and debugging processes.
-- Support for Arduino's vast ecosystem, including libraries, tools, and community resources, which can significantly accelerate development time.
+Key aspects of Arduino UNO software compatibility include:
+- Use of the Arduino IDE for programming, which supports direct USB programming of the ATmega32u4 without the need for an external programmer.
+- Alignment with Arduino UNO's pin mapping and functionality, ensuring that existing Arduino code and libraries can be used without modification.
+- Support for Arduino's standard communication protocols, allowing the module to interface with other devices and modules through UART and I2C, as well as handle interrupts, in a manner consistent with Arduino UNO projects.
 
-This synergy between the ATmega32u4 microcontroller and the Arduino UNO compatibility ensures that developers can quickly and easily create projects with advanced features and capabilities, while maintaining the simplicity and ease of use that Arduino is known for.
+This approach allows the module to blend the robust hardware capabilities of the ATmega32u4 with the user-friendly software environment of Arduino, making it ideal for a wide range of applications from educational projects to complex IoT devices.
 
-To fully harness the potential of this module in the Arduino environment, ensure that the appropriate Arduino bootloader is installed, allowing for seamless integration and programming via the Arduino IDE.
+Developers are encouraged to install the Arduino bootloader and utilize the Arduino IDE for an optimal programming experience, leveraging the compatibility to streamline development and enhance the module's functionality within the smartboard ecosystem.
 
 ## Media
 - ![Schematic](media/sch.png)
