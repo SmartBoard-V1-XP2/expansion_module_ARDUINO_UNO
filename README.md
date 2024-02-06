@@ -14,19 +14,6 @@ The module's integration with Arduino's simplicity allows for the rapid addition
 
 The module is programmed via a USB port, ensuring easy and accessible firmware updates and configurations. Users are reminded to load the Arduino firmware into the module upon assembly for booting, communication, and programming purposes.
 
-
-## Key Features of ATmega32u4 Module
-- **ATmega32u4 Microcontroller**: Offers native USB support, eliminating the need for an external USB-to-serial converter.
-- **Arduino UNO Compatibility**: Pinout and interface are fully compatible with Arduino UNO, making it easy to use with existing shields and projects.
-- **Multiple Interfaces**: Includes I2C, SPI, and UART for connecting a wide range of peripherals.
-- **Integrated USB**: Facilitates easy programming and communication without additional hardware.
-- **Compact Design**: Designed to fit into small projects with limited space while offering full functionality.
-
-For more detailed information on the ATmega32u4 microcontroller, including technical specifications and usage guidelines, please refer to the [ATmega32u4 Datasheet](ATmega16U4-32U4-DTE.pdf) available in this repository.
-
-## Module Overview
-The module is engineered for rapid prototyping and development, providing a robust platform for creating sophisticated projects that require USB connectivity and Arduino compatibility. It offers an excellent balance between power and performance, allowing users to take advantage of the ATmega32u4's features in a form factor that is fully compatible with the Arduino UNO ecosystem.
-
 ## Media
 - ![Schematic](media/sch.png)
 - ![Board Design](media/brd.png)
