@@ -1,4 +1,4 @@
-# Expansion Module: ATmega32u4 Compatible with Arduino UNO
+# Expansion Module: Arduino UNO
 
 ![Hardware](https://img.shields.io/badge/Hardware-PCB-red)
 ![Design](https://img.shields.io/badge/Design-Schematic-blue)
