@@ -8,7 +8,12 @@
 ![license](https://img.shields.io/badge/license-MIT-green)
 
 ## Overview
-This repository hosts the design and implementation of an expansion module compatible with Arduino UNO, based on the ATmega32u4 microcontroller. This module is designed for enthusiasts and developers looking for a versatile platform for building embedded projects and prototypes with Arduino compatibility in mind. It seamlessly integrates with the Arduino IDE and leverages the ATmega32u4's capabilities for a wide range of IoT and automation applications.
+This repository hosts the design and implementation of an expansion module that is fully compatible with Arduino UNO, utilizing a single smartboard connector. This module is specifically designed to facilitate and enhance working with FPGA systems within the smartboard ecosystem. It allows for UART connection to FPGA circuits, and I2C communication with the smartboard's socket bus, enabling easy programming and configuration of other modules requiring I2C setup. Additionally, it supports sending and receiving interrupts to/from the FPGA, streamlining high-level debugging and simplifying hardware project control loaded onto the FPGA matrix.
+
+The module's integration with Arduino's simplicity allows for the rapid addition of software functions for debugging or configuring hardware components, such as cameras, making it an invaluable tool for accelerating and improving work with FPGA systems on smartboards. It offers an efficient way to implement high-level debugging and straightforward project control over the hardware setup.
+
+The module is programmed via a USB port, ensuring easy and accessible firmware updates and configurations. Users are reminded to load the Arduino firmware into the module upon assembly for booting, communication, and programming purposes.
+
 
 ## Key Features of ATmega32u4 Module
 - **ATmega32u4 Microcontroller**: Offers native USB support, eliminating the need for an external USB-to-serial converter.
