@@ -42,7 +42,7 @@ This approach allows the module to blend the robust hardware capabilities of the
 
 Developers are encouraged to install the Arduino bootloader and utilize the Arduino IDE for an optimal programming experience, leveraging the compatibility to streamline development and enhance the module's functionality within the smartboard ecosystem.
 
-## Media
+## Design Documentation
 
 Below are images showcasing various aspects of the expansion module, providing a visual overview of its design, layout, and integration capabilities:
 
